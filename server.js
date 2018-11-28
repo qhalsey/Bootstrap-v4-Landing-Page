@@ -3,12 +3,13 @@ const path = require('path');
 
 let app = express();
 
-app.use(express.static(path.join(__dirname)));
+app.set("port", (process.env.PORT || 5000 ));
+app.use(express.static((__dirname)));
 
 app.get("/", (req, res) => {
     res.render('./index.html');
 });
 
-app.listen( 8080, () => {
-    console.log( "listening on PORT 8080" );
-})
+app.listen( app.get("port"), () => {
+    console.log( "listening on PORT: " + app.get('port') );
+});
