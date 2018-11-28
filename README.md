@@ -1,7 +1,7 @@
 # Bootstrap-v4-Landing-Page
 This is a simple landing page built with HTML, CSS, & Bootstrap v4. The purpose of this was to see how my design skills and knowledge of web development would translate to v4 of Bootstrap.
 
-#Getting Started
+##Getting Started
 1.) Clone the repository.
 2.) Extract all contents.
 3.) Open up cmd and navigate to the repository on your local system.
