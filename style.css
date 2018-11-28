@@ -1,9 +1,65 @@
 body {
-	overflow-x: hidden; /*--right gutter fix--*/
+  overflow-x: hidden; /*--right gutter fix--*/
+  font-family: sans-serif;
+  color: #505962;
 }
 /*--- 1 rem equals 16 px, rem is default increment for boostrap --*/
+.navbar{
+  text-transform: uppercase;
+  background-color: #505962;
+}
 .navbar-brand img{
   height: 2rem;
+}
+.home-inner{
+  background-image: url('img/landing.png');
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+.caption h3{
+  color: white;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.btn{
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+}
+h3.heading{
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+.padding{
+  padding: 2rem 0;
+}
+img.portfolio{
+  max-width: 100%;
+}
+.no-padding .col-md-6{
+  padding: 0;
+}
+.card{
+  margin: 2rem;
+}
+.footer .row{
+  background-color: #505962;
+  padding: 1rem 2rem 3rem;
+  color: white;
+}
+.footer img{
+  height: 2rem;
+  margin: 1.5rem 0;
 }
 
 
