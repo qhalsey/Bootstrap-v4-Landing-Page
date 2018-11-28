@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-v4-landing-page",
+  "version": "1.0.0",
+  "description": "Basic Bootstrap v4 landing page",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qhalsey/Bootstrap-v4-Landing-Page.git"
+  },
+  "author": "Quentin Halsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qhalsey/Bootstrap-v4-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/qhalsey/Bootstrap-v4-Landing-Page#readme"
+}
